@@ -19,9 +19,9 @@ const ContainerStyled = styled.section`
 `;
 
 const Product = styled.div`
-  background-color: #e0c2c0;
-  padding: 2.5rem;
   display: grid;
+  padding: 2.5rem;
+  background-color: #e0c2c0;
   grid-template-rows: 30% 70%;
 `;
 
@@ -39,22 +39,22 @@ const HeaderStyled = styled.header`
 
   ul { 
     height: 3rem;
+    margin: 0;
     display: flex;
-    justify-content: space-evenly;
-    text-decoration: none;
-    list-style: none;
-    font-family: 'Poppins', sans-serif;
     color: #303030;
     font-size: 1rem;
-    margin: 0;
+    list-style: none;
+    text-decoration: none;
     align-items: flex-end;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
   }
 `;
 
 const ProductImage = styled.figure`
+  margin: 0;
   display: flex;
   justify-content: center;
-  margin: 0;
 
   img {
     height: 100%;
