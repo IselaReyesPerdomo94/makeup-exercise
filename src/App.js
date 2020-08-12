@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import ProductCard from './pages/landing/components/productCard';
+import ProductCard from './pages/landing/components/ProductCard';
 
 const Container = styled.body`
     display: flex;

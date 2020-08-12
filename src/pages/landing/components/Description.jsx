@@ -15,6 +15,7 @@ const HeaderStyled = styled.header`
 `;
 
 const Title = styled.h2`
+    font-family: 'Vidaloka', serif;
 `
 
 const Description = () => {
@@ -22,6 +23,9 @@ const Description = () => {
         <DescriptionStyled>
             <HeaderStyled>
                 shop
+                <Title>
+    All about the base
+</Title>
             </HeaderStyled>
 
         </DescriptionStyled>
